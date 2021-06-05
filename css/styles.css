@@ -1,0 +1,99 @@
+body{
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+}
+
+header{
+  background-color: antiquewhite;
+   padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container{
+  /* background-color: cadetblue; */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+  align-items: center;
+}
+
+
+.icon img {
+  border-radius: 50%;
+  border-color: black;
+  border-style:double;
+  border-width: 8px;
+}
+
+.info h1 {
+  margin: 0;
+  font-weight:normal;
+  font-size: 24px;
+}
+
+.info{
+  /* background-color: blueviolet; */
+  margin-left: 25px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.info p{
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.info ul li {
+  margin-left: 8px;
+}
+
+.info ul li img:hover{
+  opacity: 0.5;
+
+}
+
+.cutedogs {
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: pink; */
+  width: 400px;
+}
+
+.cutedogs > h1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+  margin-top:60px;
+  margin-bottom: 60px;
+}
+
+.cutedogs > section {
+  margin-bottom: 60px;
+}
+
+.cutedogs > section > h1{
+  font-weight: bolder;
+  /* color: orangered; */
+}
+
+.cutedogs p {
+  line-height: 1.8;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 14px;
+  color: gray;
+  margin-bottom: 60px;
+}
